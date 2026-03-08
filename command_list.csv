@@ -1,0 +1,34 @@
+    1  git clone https://github.com/nataliiamuz-coder/HW_10.git
+    2  dir
+    3  cd HW_10
+    4  touch text_ignore.txt
+    5  git status
+    6  git add text_ignore.txt
+    7  git status
+    8  git commit
+    9  touch text_ignore.txt
+   10  nano .gitignore
+   11  git status
+   12  git add .gitignore
+   13  git status
+   14  git commit -m "my comment"
+   15  touch main_test.txt
+   16  git add main_test.txt
+   17  git status
+   18  git commit -m "my comment 2"
+   19  git status
+   20  git checkout -b develop
+   21  git status
+   22  git checkout develop
+   23  touch develop_test.txt
+   24  git add develop_test.txt
+   25  git commit -m "my comment 3" 
+   26  nano develop_test.txt
+   27  git status
+   28  git add develop_test.txt
+   29  git commit -m "my commet 4"
+   30  git status
+   31  git checkout main
+   32  git merge develop
+   33  git log
+   34  history > command_list.csv
